@@ -1,1 +1,0 @@
-# RotNet barcode ML API
