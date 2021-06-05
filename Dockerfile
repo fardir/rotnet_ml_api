@@ -9,6 +9,8 @@ ENV PYTHONUNBUFFERED 1
 
 # update command linux
 RUN apt-get update && apt-get install ffmpeg libsm6 libxext6 libzbar0 curl -y
+
+# Download the model
 RUN curl -X GET -o "./rotnet_barcode_view_resnet50_v2.hdf5" "https://storage.googleapis.com/model-predict/rotnet_barcode_view_resnet50_v2.hdf5"
 
 # install dependencies
