@@ -29,3 +29,12 @@
             - barcode_image: file
    Response Body : image with barcode string value
    ```
+1. sample response
+   ```text
+   {
+       "success": true,
+       "message": "4f3a456425ae49cfb69e73c6c614dc8a_2007002006250-01_N95-2592x1944_scaledTo1024x768bilinear.jpg",
+       "data": "2007002006250",
+       "time_exec": "0.7527906894683838 seconds"
+   }
+   ```
